@@ -1,5 +1,3 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.154.0/containers/dotnet-mssql
 {
 	"name": "C# (.NET) and MS SQL",
 	"dockerComposeFile": "docker-compose.yml",
@@ -26,8 +24,7 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-dotnettools.csharp",
-		"ms-mssql.mssql",
-		"hashicorp.terraform"
+		"ms-mssql.mssql"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
